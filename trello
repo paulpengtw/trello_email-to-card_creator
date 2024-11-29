@@ -1,0 +1,4 @@
+#!/bin/bash
+PROJECT_DIR="/path/to/project/directory"
+cd "$PROJECT_DIR"
+python3 "$PROJECT_DIR/main.py" "$@"

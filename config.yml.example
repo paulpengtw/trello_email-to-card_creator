@@ -1,0 +1,27 @@
+# Example configuration file for Trello Card Creator
+# Copy this file to config.yml and update with your settings
+
+trello:
+  # Your Trello board's email address (found in Trello board settings)
+  board_email: your-trello-board-email@board.trello.com
+
+  # Define your Trello labels and their corresponding values
+  labels:
+    Bug: "#1._Bug"
+    Feature: "#2._Feature"
+    Documentation: "#3._Documentation"
+    Enhancement: "#4._Enhancement"
+    Question: "#5._Question"
+    # Add more labels as needed, following the format:
+    # LabelName: "#X._LabelName"
+
+  # Define team members to CC (optional)
+  cc_members:
+    - member1@example.com
+    - member2@example.com
+    # Add more members as needed, one per line with a dash
+
+# Note: After copying this file to config.yml, make sure to:
+# 1. Update the email addresses with your actual Trello board email
+# 2. Configure the labels to match your Trello board's labels
+# 3. Add your team members' actual email addresses
